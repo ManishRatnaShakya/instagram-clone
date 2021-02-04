@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './container/Header/Header'
 
-function App() {
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Feed from './container/Feed/Feed'
+import { connect } from 'react-redux';
+import {selectFeedData} from './redux/Feed/feed.selector';
+import { createStructuredSelector } from 'reselect';
+function App(props) {
+  console.log("this is a feed",props.feed)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Router>
+        <Route path="/"  component={Feed}/>
+      </Router>
     </div>
   );
 }
-
-export default App;
+const mapStateToProps = createStructuredSelector({
+  feed:selectFeedData,
+})
+export default connect(mapStateToProps)(App);

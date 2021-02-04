@@ -1,0 +1,9 @@
+.feed {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 50px;
+  -ms-grid-columns: 14% 43% 27% 15%;
+      grid-template-columns: 14% 43% 27% 15%;
+  height: 100%;
+}
+/*# sourceMappingURL=Feed.css.map */

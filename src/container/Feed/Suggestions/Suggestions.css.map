@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,UAAU,EAAC,IAAI;EACf,WAAW,EAAC,IAAI;EAChB,QAAQ,EAAE,KAAK;CAMlB;;AATD,AAKI,YALQ,CAKR,aAAa,CAAA;EAET,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "Suggestions.scss"
+    ],
+    "names": [],
+    "file": "Suggestions.css"
+}

@@ -1,0 +1,80 @@
+.userNewsFeed{
+    background-color:#ffffff;
+    border:1px solid rgb(247, 231, 231);
+    margin-bottom:65px;
+    margin-top: 20px ;
+    .feed-image{
+    img{
+        width:100%
+    }
+}
+    .profile{
+        display:flex;
+        justify-content:space-between;
+        
+        .profile_data{
+            display: flex;
+        }
+
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius:50%;
+            border-color: rgb(237,106,96);
+            border-width: 3px;
+            border-style: solid;
+            margin: 5px 10px;
+        }
+
+        .profile_name{
+            margin-top:5px;
+            font-weight: bold;
+        }
+        .options{
+           font-size: 18px;
+           margin-right: 20px;
+           margin-top:18px;
+        }
+    }
+
+    .reaction{
+        margin-left: 3px;
+        display: flex;
+        justify-content: space-between;
+        .like{
+            cursor: pointer;
+        }
+        img{
+            height: 28px;
+            margin-left: 20px;
+        }
+        
+        .bookmark{
+            margin-right:10px;
+        }
+    }
+    
+    .reaction-output{
+        .likes{
+            font-weight:bold;
+            margin-left:20px;
+            margin-top: 5px;
+            
+        }
+        .user-detail{
+             display: flex;
+
+            .username{
+            font-weight:bold;
+            margin-left: 20px;
+            }
+            .descriptions{
+                margin-left:14px
+            }
+        
+             
+        }
+       
+       
+    }
+}

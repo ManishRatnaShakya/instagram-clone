@@ -1,0 +1,18 @@
+.story-feed {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  height: 105px;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e7f0c7ee;
+  background-color: #ffffff;
+}
+
+.story-feed::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=StoryFeed.css.map */

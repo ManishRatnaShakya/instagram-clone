@@ -1,0 +1,91 @@
+.userNewsFeed {
+  background-color: #ffffff;
+  border: 1px solid #f7e7e7;
+  margin-bottom: 65px;
+  margin-top: 20px;
+}
+
+.userNewsFeed .feed-image img {
+  width: 100%;
+}
+
+.userNewsFeed .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userNewsFeed .profile .profile_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.userNewsFeed .profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: #ed6a60;
+  border-width: 3px;
+  border-style: solid;
+  margin: 5px 10px;
+}
+
+.userNewsFeed .profile .profile_name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.userNewsFeed .profile .options {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+
+.userNewsFeed .reaction {
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userNewsFeed .reaction .like {
+  cursor: pointer;
+}
+
+.userNewsFeed .reaction img {
+  height: 28px;
+  margin-left: 20px;
+}
+
+.userNewsFeed .reaction .bookmark {
+  margin-right: 10px;
+}
+
+.userNewsFeed .reaction-output .likes {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.userNewsFeed .reaction-output .user-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.userNewsFeed .reaction-output .user-detail .username {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.userNewsFeed .reaction-output .user-detail .descriptions {
+  margin-left: 14px;
+}
+/*# sourceMappingURL=userNewsFeed.css.map */
