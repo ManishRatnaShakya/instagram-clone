@@ -2,9 +2,26 @@
     margin-top:80px;
     margin-left:40px;
     position: fixed;
+    width:20%;
 
     .profile_view{
 
         height: 109px;
+    }
+
+    .for-you{
+        display:flex;
+        justify-content:space-between;
+        .suggest{
+            font-weight: bold;
+            font-size:17px;
+            color:rgb(142,142,142)
+
+        }
+        .see-all{
+            margin-top:9px;
+            font-size: 13px;
+            font-weight: bold;
+        }
     }
 }

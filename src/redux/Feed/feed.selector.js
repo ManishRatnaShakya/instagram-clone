@@ -7,3 +7,8 @@ export const selectFeedData = createSelector(
     feed=>feed.feedData
 );
 
+
+export const selectNotifications = createSelector(
+    [selectFeed],
+    feed=>feed.showNotifications
+)

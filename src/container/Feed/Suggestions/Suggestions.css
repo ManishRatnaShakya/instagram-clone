@@ -2,9 +2,31 @@
   margin-top: 80px;
   margin-left: 40px;
   position: fixed;
+  width: 20%;
 }
 
 .suggestions .profile_view {
   height: 109px;
+}
+
+.suggestions .for-you {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.suggestions .for-you .suggest {
+  font-weight: bold;
+  font-size: 17px;
+  color: #8e8e8e;
+}
+
+.suggestions .for-you .see-all {
+  margin-top: 9px;
+  font-size: 13px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=Suggestions.css.map */

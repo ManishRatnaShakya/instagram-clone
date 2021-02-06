@@ -1,0 +1,38 @@
+.suggestedUser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.suggestedUser .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.suggestedUser .profile .profile-image {
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.suggestedUser .profile p {
+  font-weight: bold;
+}
+
+.suggestedUser .profile img {
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c2bebe;
+}
+
+.suggestedUser .follow {
+  font-size: 13px;
+  font-weight: bold;
+  color: #4b54d3;
+  margin-top: 6px;
+}
+/*# sourceMappingURL=SuggestedUser.css.map */

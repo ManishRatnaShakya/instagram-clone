@@ -1,0 +1,48 @@
+.user-notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-notification .notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-notification .notification .profile-image {
+  margin: 17px 10px 7px 10px;
+}
+
+.user-notification .notification .profile-image img {
+  border-radius: 50%;
+  border-color: #c2bebe;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.user-notification .notification .profile-name {
+  margin-top: 5px;
+}
+
+.user-notification .follow-button {
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.user-notification .follow-button button {
+  width: 95px;
+  height: 30px;
+  background-color: #ffffff;
+  font-weight: bold;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=UserNotification.css.map */

@@ -6,4 +6,22 @@
       grid-template-columns: 14% 43% 27% 15%;
   height: 100%;
 }
+
+.feed .modal-content {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 45%;
+  top: 8%;
+  width: 30%;
+  /* Full width */
+  height: 40%;
+  /* Full height */
+  overflow: auto;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 1px 1px #f7f7f7;
+          box-shadow: -1px 1px 1px #f7f7f7;
+}
 /*# sourceMappingURL=Feed.css.map */

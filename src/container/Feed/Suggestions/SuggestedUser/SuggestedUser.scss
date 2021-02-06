@@ -1,0 +1,32 @@
+.suggestedUser{
+    display: flex;
+    justify-content: space-between;
+
+    .profile{
+            display: flex;
+            .profile-image{
+                margin-top:12px;
+                margin-right:10px;
+                
+            }
+            p{
+                font-weight: bold;
+            }
+
+            img{
+                border-radius: 50%;
+                border-width: 1px;
+                border-style: solid;
+                border-color:#c2bebe;
+
+
+            }
+        }
+
+        .follow{
+            font-size: 13px;
+            font-weight: bold;
+            color: #4b54d3;
+            margin-top:6px;
+        }
+}

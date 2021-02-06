@@ -1,6 +1,13 @@
 import React from 'react'
 import './Header.css';
-function Header() {
+import {notificationAction} from '../../redux/Feed/feed.action';
+import { connect } from 'react-redux';
+import {selectNotifications} from '../../redux/Feed/feed.selector';
+import { createStructuredSelector } from 'reselect';
+
+function Header({dispatch,notification}) {
+    console.log("notify",notification)
+   
     return (
         <div className="header">
                
@@ -14,12 +21,16 @@ function Header() {
                 <img src="https://img.icons8.com/material-sharp/24/000000/home.png" alt="home" />
                 <img src="https://img.icons8.com/material-sharp/24/000000/facebook-messenger.png" alt="facebook-messenger" />
                 <img src="https://img.icons8.com/material/24/000000/compass--v1.png" alt="explore"/>
-                <img src="https://img.icons8.com/ios-filled/24/000000/love-circled.png" alt="love-circled" />
+                <img src="https://img.icons8.com/ios-filled/24/000000/love-circled.png" alt="love-circled" onClick={()=>dispatch(notificationAction)} />
                 <img src="https://img.icons8.com/ios-filled/50/000000/filled-circle.png" alt="profile_picture" />
             </span>
             <span className="free-space"></span>
         </div>
     )
 }
+const mapStateToProps=createStructuredSelector({
+    notification:selectNotifications
+}
+)
 
-export default Header
+export default connect(mapStateToProps)(Header)

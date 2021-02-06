@@ -1,0 +1,88 @@
+.login {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 22% 56% 22%;
+      grid-template-columns: 22% 56% 22%;
+}
+
+.login .login-wrapper {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login .login-wrapper .phone {
+  margin-right: 20px;
+  height: 125%;
+  width: 50%;
+}
+
+.login .login-wrapper .phone img {
+  height: 100%;
+  width: 100%;
+}
+
+.login .login-wrapper .login-form {
+  text-align: center;
+  width: 25rem;
+  height: 100%;
+}
+
+.login .login-wrapper .login-form .login-field .logo {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.login .login-wrapper .login-form .login-field img {
+  height: 40px;
+}
+
+.login .login-wrapper .login-form .login-field input {
+  width: 70%;
+  margin-bottom: 7px;
+  background-color: #fafafa;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 30px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+}
+
+.login .login-wrapper .login-form .login-field button {
+  margin-top: 8px;
+  width: 72%;
+  height: 28px;
+  border-radius: 3px;
+  background-color: #b2dffc;
+  border-width: 1px;
+  border-style: solid;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login .login-wrapper .login-form .login-field button:focus {
+  outline: none;
+}
+
+.login .login-wrapper .login-form .no-account {
+  background-color: #ffffff;
+}
+
+.login .login-wrapper .login-form .get-app .app-store {
+  width: 30px;
+}
+
+.login .login-wrapper .login-form .get-app .play-store {
+  width: 118px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=Login.css.map */

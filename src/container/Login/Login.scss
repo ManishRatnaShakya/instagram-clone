@@ -1,0 +1,81 @@
+.login{
+    display: grid;
+    grid-template-columns: 22% 56% 22% ;
+    .login-wrapper{
+        margin-top:65px;
+        display: flex;
+        justify-content:space-between;
+        .phone{
+            margin-right: 20px;
+            
+            height:125%;
+            width:50%;
+            img{
+                height:100%;
+                width:100%
+            }
+        }
+
+        .login-form{
+            text-align: center;
+            width: 25rem;
+            height: 100%;
+            .login-field{
+                
+                .logo{
+                        margin-top:45px;
+                        margin-bottom:25px;
+                    }
+                img{
+                    height:40px;
+                }
+                input{
+                    width:70%;
+                    margin-bottom: 7px;
+                    background-color:rgb(250,250,250);
+                    box-shadow: none;
+                    height:30px;
+                    border-radius: 3px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color:rgb(219,219,219)
+                }
+                button{
+                    margin-top:8px;
+                    width:72%; 
+                    height:28px;
+                    border-radius: 3px;  
+                    background-color:rgb(178,223,252);
+                    border-width: 1px;
+                    border-style: solid;
+                    border:none;
+                    box-shadow: none;
+                    color: #ffffff;
+                    cursor: pointer;
+                }
+                button:focus{
+                    outline: none;
+                
+                }
+            }
+    
+
+        .no-account{
+                background-color: #ffffff  
+        }
+        .get-app{
+            .app-store{
+                width: 30px;
+            }
+            .play-store{
+                width: 118px;
+                margin-left: 5px;
+            }
+
+        }
+
+    }
+}
+    
+   
+}
